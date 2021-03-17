@@ -4,11 +4,11 @@ public class ViewsInfo {
 
     private int viewsCount;
 
-    public int getViewsCount() {
+    public int getViewsCount () {
         return viewsCount;
     }
 
-    public void setViewsCount(int viewsCount) {
+    public void setViewsCount (int viewsCount) {
         this.viewsCount = viewsCount;
     }
 }

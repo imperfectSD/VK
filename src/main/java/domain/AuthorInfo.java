@@ -5,20 +5,19 @@ public class AuthorInfo {
     private int authorId;
     private String authorName;
 
-    public int getAuthorId() {
+    public int getAuthorId () {
         return authorId;
     }
 
-    public void setAuthorId(int authorId) {
+    public void setAuthorId (int authorId) {
         this.authorId = authorId;
     }
 
-    public String getAuthorName() {
+    public String getAuthorName () {
         return authorName;
     }
 
-    public void setAuthorName(String authorName) {
+    public void setAuthorName (String authorName) {
         this.authorName = authorName;
     }
-
 }

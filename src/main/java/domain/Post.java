@@ -18,71 +18,71 @@ public class Post {
     private OwnerId ownerId;
     private Favorite favorite;
 
-    public LikesInfo getLikesCount() {
+    public LikesInfo getLikesCount () {
         return likesCount;
     }
 
-    public void setLikes(int count) {
+    public void setLikes (int count) {
         this.likesCount = likesCount;
     }
 
-    public LikesInfo getCanLike() {
+    public LikesInfo getCanLike () {
         return canLike;
     }
 
-    public void setCanLike(LikesInfo canLike) {
+    public void setCanLike (LikesInfo canLike) {
         this.canLike = canLike;
     }
 
-    public ViewsInfo getViewsCount() {
+    public ViewsInfo getViewsCount () {
         return viewsCount;
     }
 
-    public void setViewsCount(ViewsInfo viewsCount) {
+    public void setViewsCount (ViewsInfo viewsCount) {
         this.viewsCount = viewsCount;
     }
 
-    public Date getDate() {
+    public Date getDate () {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate (Date date) {
         this.date = date;
     }
 
-    public Text getText() {
+    public Text getText () {
         return text;
     }
 
-    public void setText(Text text) {
+    public void setText (Text text) {
         this.text = text;
     }
 
-    public RepostsInfo getRepostsCount() {
+    public RepostsInfo getRepostsCount () {
         return repostsCount;
     }
 
-    public void setRepostsCount(RepostsInfo repostsCount) {
+    public void setRepostsCount (RepostsInfo repostsCount) {
         this.repostsCount = repostsCount;
     }
 
-    public RepostsInfo getCanRepost() {
+    public RepostsInfo getCanRepost () {
         return canRepost;
         }
 
-        public void setCanRepost(RepostsInfo canRepost) {
+        public void setCanRepost (RepostsInfo canRepost) {
            this.canRepost = canRepost;
         }
 
-    public CommentsInfo getCommentsCount() {
+    public CommentsInfo getCommentsCount () {
         return commentsCount;
     }
 
-    public void setCommentsCount(CommentsInfo commentsCount) {
+    public void setCommentsCount (CommentsInfo commentsCount) {
         this.commentsCount = commentsCount;
     }
 
-    public CommentsInfo getCanComment() {
+    public CommentsInfo isCanComment () {
         return canComment;
     }
 
@@ -90,7 +90,7 @@ public class Post {
         this.canComment = canComment;
     }
 
-    public CommentsInfo getCanOpen() {
+    public CommentsInfo isCanOpen () {
         return canOpen;
     }
 
@@ -98,7 +98,7 @@ public class Post {
         this.canOpen = canOpen;
     }
 
-    public CommentsInfo getCanClose() {
+    public CommentsInfo isCanClose () {
         return canClose;
     }
 
@@ -106,7 +106,7 @@ public class Post {
         this.canClose = canClose;
     }
 
-    public AuthorInfo getAuthorId() {
+    public AuthorInfo getAuthorId () {
         return authorId;
     }
 
@@ -114,7 +114,7 @@ public class Post {
         this.authorId = authorId;
     }
 
-    public AuthorInfo getAuthorName() {
+    public AuthorInfo getAuthorName () {
         return authorName;
     }
 
@@ -122,19 +122,19 @@ public class Post {
         this.authorName = authorName;
     }
 
-    public OwnerId getOwnerId() {
+    public OwnerId getOwnerId () {
         return ownerId;
     }
 
-    public void setIdOwner(OwnerId ownerId) {
+    public void setIdOwner (OwnerId ownerId) {
         this.ownerId = ownerId;
     }
 
-    public Favorite getFavorite() {
+    public Favorite getFavorite () {
         return favorite;
     }
 
-    public void setFavorite(Favorite favorite) {
+    public void setFavorite (Favorite favorite) {
         this.favorite = favorite;
     }
 }

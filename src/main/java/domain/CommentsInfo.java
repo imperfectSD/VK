@@ -7,35 +7,35 @@ public class CommentsInfo {
     private boolean canOpen;
     private boolean canClose;
 
-    public int getCommentsCount() {
+    public int getCommentsCount () {
         return commentsCount;
     }
 
-    public void setCommentsCount(int count) {
+    public void setCommentsCount (int count) {
         this.commentsCount = commentsCount;
     }
 
-    public boolean isCanComment() {
+    public boolean isCanComment () {
         return canComment;
     }
 
-    public void setCanComment(boolean canComment) {
+    public void setCanComment (boolean canComment) {
         this.canComment = canComment;
     }
 
-    public boolean isCanOpen() {
+    public boolean isCanOpen () {
         return canOpen;
     }
 
-    public void setCanOpen(boolean canOpen) {
+    public void setCanOpen (boolean canOpen) {
         this.canOpen = canOpen;
     }
 
-    public boolean isCanClose() {
+    public boolean isCanClose () {
         return canClose;
     }
 
-    public void setCanClose(boolean canClose) {
+    public void setCanClose (boolean canClose) {
         this.canClose = canClose;
     }
 }

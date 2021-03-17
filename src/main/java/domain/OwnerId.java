@@ -4,7 +4,7 @@ public class OwnerId {
 
     private int ownerId;
 
-    public int getOwnerId() {
+    public int getOwnerId () {
         return ownerId;
     }
 
