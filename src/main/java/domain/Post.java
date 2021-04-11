@@ -9,10 +9,7 @@ public class Post {
     private Text text;
     private RepostsInfo repostsCount;
     private RepostsInfo canRepost;
-    private CommentsInfo commentsCount;
-    private CommentsInfo canComment;
-    private CommentsInfo canOpen;
-    private CommentsInfo canClose;
+    private CommentsInfo commentsInfo;
     private AuthorInfo authorId;
     private AuthorInfo authorName;
     private OwnerId ownerId;
