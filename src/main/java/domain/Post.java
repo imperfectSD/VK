@@ -2,42 +2,15 @@ package domain;
 
 public class Post {
 
-    private LikesInfo likesCount;
-    private LikesInfo canLike;
-    private ViewsInfo viewsCount;
+    private LikesInfo likesInfo;
+    private ViewsInfo viewsInfo;
     private Date date;
     private Text text;
-    private RepostsInfo repostsCount;
-    private RepostsInfo canRepost;
+    private RepostsInfo repostsInfo;
     private CommentsInfo commentsInfo;
-    private AuthorInfo authorId;
-    private AuthorInfo authorName;
+    private AuthorInfo authorInfo;
     private OwnerId ownerId;
     private Favorite favorite;
-
-    public LikesInfo getLikesCount () {
-        return likesCount;
-    }
-
-    public void setLikes (int count) {
-        this.likesCount = likesCount;
-    }
-
-    public LikesInfo getCanLike () {
-        return canLike;
-    }
-
-    public void setCanLike (LikesInfo canLike) {
-        this.canLike = canLike;
-    }
-
-    public ViewsInfo getViewsCount () {
-        return viewsCount;
-    }
-
-    public void setViewsCount (ViewsInfo viewsCount) {
-        this.viewsCount = viewsCount;
-    }
 
     public Date getDate () {
         return date;
@@ -55,70 +28,6 @@ public class Post {
         this.text = text;
     }
 
-    public RepostsInfo getRepostsCount () {
-        return repostsCount;
-    }
-
-    public void setRepostsCount (RepostsInfo repostsCount) {
-        this.repostsCount = repostsCount;
-    }
-
-    public RepostsInfo getCanRepost () {
-        return canRepost;
-        }
-
-        public void setCanRepost (RepostsInfo canRepost) {
-           this.canRepost = canRepost;
-        }
-
-    public CommentsInfo getCommentsCount () {
-        return commentsCount;
-    }
-
-    public void setCommentsCount (CommentsInfo commentsCount) {
-        this.commentsCount = commentsCount;
-    }
-
-    public CommentsInfo isCanComment () {
-        return canComment;
-    }
-
-    public void setCanComment (CommentsInfo canComment) {
-        this.canComment = canComment;
-    }
-
-    public CommentsInfo isCanOpen () {
-        return canOpen;
-    }
-
-    public void setCanOpen (CommentsInfo canOpen) {
-        this.canOpen = canOpen;
-    }
-
-    public CommentsInfo isCanClose () {
-        return canClose;
-    }
-
-    public void setCanClose (CommentsInfo canClose) {
-        this.canClose = canClose;
-    }
-
-    public AuthorInfo getAuthorId () {
-        return authorId;
-    }
-
-    public void setAuthorId (AuthorInfo authorId) {
-        this.authorId = authorId;
-    }
-
-    public AuthorInfo getAuthorName () {
-        return authorName;
-    }
-
-    public void setAuthorName (AuthorInfo authorName) {
-        this.authorName = authorName;
-    }
-
     public OwnerId getOwnerId () {
         return ownerId;
     }
@@ -133,5 +42,45 @@ public class Post {
 
     public void setFavorite (Favorite favorite) {
         this.favorite = favorite;
+    }
+
+    public LikesInfo getLikesInfo() {
+        return likesInfo;
+    }
+
+    public void setLikesInfo(LikesInfo likesInfo) {
+        this.likesInfo = likesInfo;
+    }
+
+    public ViewsInfo getViewsInfo() {
+        return viewsInfo;
+    }
+
+    public void setViewsInfo(ViewsInfo viewsInfo) {
+        this.viewsInfo = viewsInfo;
+    }
+
+    public RepostsInfo getRepostsInfo() {
+        return repostsInfo;
+    }
+
+    public void setRepostsInfo(RepostsInfo repostsInfo) {
+        this.repostsInfo = repostsInfo;
+    }
+
+    public CommentsInfo getCommentsInfo() {
+        return commentsInfo;
+    }
+
+    public void setCommentsInfo(CommentsInfo commentsInfo) {
+        this.commentsInfo = commentsInfo;
+    }
+
+    public AuthorInfo getAuthorInfo() {
+        return authorInfo;
+    }
+
+    public void setAuthorInfo(AuthorInfo authorInfo) {
+        this.authorInfo = authorInfo;
     }
 }
